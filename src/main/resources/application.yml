@@ -5,3 +5,4 @@ spring:
     url: jdbc:mysql://192.168.1.101:33060/simwor
     username: rayslee
     password: abcd1234..
+    driver-class-name: com.mysql.cj.jdbc.Driver
