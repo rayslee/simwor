@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: Simwor
+  datasource:
+    url: jdbc:mysql://192.168.1.101:33060/simwor
+    username: rayslee
+    password: abcd1234..
