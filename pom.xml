@@ -15,6 +15,7 @@
 	<description>Make this a simple world</description>
 	<properties>
 		<java.version>11</java.version>
+		<mybatis-plus.version>3.5.1</mybatis-plus.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -27,6 +28,11 @@
 			<version>2.2.2</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.baomidou</groupId>
+			<artifactId>mybatis-plus-boot-starter</artifactId>
+			<version>${mybatis-plus.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
